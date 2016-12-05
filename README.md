@@ -22,3 +22,20 @@
         text, _ := difflib.GetUnifiedDiffString(diff)
         fmt.Printf(text)
     }
+    
+    
+    
+    
+>程序输出
+
+    --- /path/src.conf
+    +++ /path/dest.conf
+    @@ -2,6 +2,6 @@
+     user=test
+     password=123456
+     [db]
+    -ipaddr=172.30.40.20
+    +ipaddr=172.30.40.21
+     port=3306
+     
+     
